@@ -2,7 +2,7 @@
 """
 Created on Tue Aug 10 10:44:38 2021
 
-@author: MADHUPRAJITHA
+@author: Arjun
 """
 
 l=["I did it all",'4','love']
