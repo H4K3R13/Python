@@ -1,0 +1,640 @@
+Q>Print 100 Natural Number
+i=1
+while  i<101:
+    print(i)
+    i=i+1
+Output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+
+Q>Print 100 Odd numbers
+print("While Loop")
+i=1
+count=0
+while i%2!=0:
+   print(i)
+   count=count+1
+   i=i+2
+   if count==100:break
+
+print("For Loop")
+count=0
+for i in range(1,500):
+   if i%2!=0:
+       print(i)
+       count=count+1
+       if count==100:break
+Output:
+While Loop
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29
+31
+33
+35
+37
+39
+41
+43
+45
+47
+49
+51
+53
+55
+57
+59
+61
+63
+65
+67
+69
+71
+73
+75
+77
+79
+81
+83
+85
+87
+89
+91
+93
+95
+97
+99
+101
+103
+105
+107
+109
+111
+113
+115
+117
+119
+121
+123
+125
+127
+129
+131
+133
+135
+137
+139
+141
+143
+145
+147
+149
+151
+153
+155
+157
+159
+161
+163
+165
+167
+169
+171
+173
+175
+177
+179
+181
+183
+185
+187
+189
+191
+193
+195
+197
+199
+For Loop
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29
+31
+33
+35
+37
+39
+41
+43
+45
+47
+49
+51
+53
+55
+57
+59
+61
+63
+65
+67
+69
+71
+73
+75
+77
+79
+81
+83
+85
+87
+89
+91
+93
+95
+97
+99
+101
+103
+105
+107
+109
+111
+113
+115
+117
+119
+121
+123
+125
+127
+129
+131
+133
+135
+137
+139
+141
+143
+145
+147
+149
+151
+153
+155
+157
+159
+161
+163
+165
+167
+169
+171
+173
+175
+177
+179
+181
+183
+185
+187
+189
+191
+193
+195
+197
+199
+
+Q>Adding two numbers
+x=int(input('Enter First Number:'))
+y=int(input('Enter Second Number:'))
+sum=x+y
+print('Sum: ',sum)
+
+Output:
+Enter First Number:5
+
+Enter Second Number:6
+Sum:  11
+
+Q>Bitwise Operator
+x=10
+y=2
+print('x&y=',x&y)
+print('x|y=',x|y)
+print('~x',~x)
+print('x^y=',x^y)
+print('x>>2 =',x>>2)
+print('x<<2 =',x<<2)
+
+Output:
+x&y= 2
+x|y= 10
+~x -11
+x^y= 8
+x>>2 = 2
+x<<2 = 40
+
+Q>Exponential Operator
+x=100
+y=5
+print(x**y)
+
+Output:
+10000000000
+
+Q>Checking Leap Year
+
+year=int(input('Enter Year:'))
+if year%100==0:
+    if year%400==0:
+        print("Leap year")
+elif year%4==0:
+    print("Leap Year")
+else:
+    print("Not Leap")
+
+Output:
+Enter Year:2016
+Leap Year
+
+Q>List Operations
+x1=5
+y1=5
+x2='Hello'
+y2='Hello'
+x3=[1,2,3]
+y3=[1,2,3]
+print(x1 is y1)
+print(x1 is not y1)
+#print(x2 in x1)
+print(x2 in y2)
+print(x2 is not y2)
+print(x3 is y3)
+print(x3 is not y3)
+
+Output:
+True
+False
+True
+False
+False
+True
+
+Q>List and Dictionary Operations
+x='Good morning'
+y=[1,2,3,4]
+z={1:'a',2:'b'}
+print('G' in x)
+print('g' in x)
+print('G' not in x)
+print('Good' in x)
+print('a' in z)
+print(1 in z)
+
+Output:
+True
+True
+False
+True
+False
+True
+
+Q>Finding Odd or Even
+a=int(input('Enter Number:'))
+if a%2==0:
+    print("Its Even.")
+else:
+    print("Not Even")
+
+Output:
+Enter Number:5
+Not Even
+
+Q>Operator
+x=10
+y=2
+print(x&y)
+print(x|y)
+print(~x)
+print(x^y)
+print(x>>2)
+print(x<<2)
+
+Output:
+2
+10
+-11
+8
+2
+40
+
+Q>Prime numbers in a range
+l1=int(input("Enter l1:"))
+l2=int(input("Enter l2:"))
+for num in range(l1,l2):
+    count=0
+    for i in range(1,num+1):
+        if(num%i)==0:
+            count=count+1
+    if(count==2):
+        print(num)
+
+Output:
+Enter l1:1
+
+Enter l2:10
+2
+3
+5
+7
+
+Q>Relational Operator
+x=10
+y=100
+print('x>y is',x>y)
+print('x==y is',x==y)
+print('x!=y is',x!=y)
+print('x<y is',x<y)
+print('x<=y is',x<=y)
+
+Output:
+x>y is False
+x==y is False
+x!=y is True
+x<y is True
+x<=y is True
+
+Q>String Functions
+s="Good morning"
+print("s.count('o') ",s.count('o'))
+print("s.find('i')",s.find('i'))
+print("s.rfind('n')",s.rfind('n'))
+print("s.index('m')",s.index('m'))
+print("s.rindex('g')",s.rindex('g'))
+print("s.lower()",s.lower())
+print("s.replace('o','r')",s.replace('o','r'))
+print("s.rstrip",s.rstrip)
+print("s.split('o')",s.split('o'))
+print("s.capitalize()",s.capitalize())
+print("s.casefold()",s.casefold())
+print("s.endswith('n')",s.endswith('n'))
+print("s.splitlines()",s.splitlines())
+print("s.startswith('G')",s.startswith('G'))
+print("s.swapcase",s.swapcase())
+print("s.title",s.title())
+print("s.upper",s.upper)
+print("s.zfill(10)",s.zfill(10))
+print("s.isalpha()",s.isalpha())
+print("s.isalnum()",s.isalnum())
+print("s.isdecimal()",s.isdecimal())
+print("s.isdigit()",s.isdigit())
+print("s.islower()",s.islower())
+print("s.isnumeric()",s.isnumeric())
+print("s.isspace()",s.isspace())
+print("s.istitle()",s.istitle())
+print("s.join('J')",s.join('J'))
+print("s.ljust(5,'T')",s.ljust(5,'T'))
+
+Output:
+s.count('o')  3
+s.find('i') 9
+s.rfind('n') 10
+s.index('m') 5
+s.rindex('g') 11
+s.lower() good morning
+s.replace('o','r') Grrd mrrning
+s.rstrip <built-in method rstrip of str object at 0x7f43107646f0>
+s.split('o') ['G', '', 'd m', 'rning']
+s.capitalize() Good morning
+s.casefold() good morning
+s.endswith('n') False
+s.splitlines() ['Good morning']
+s.startswith('G') True
+s.swapcase gOOD MORNING
+s.title Good Morning
+s.upper <built-in method upper of str object at 0x7f43107646f0>
+s.zfill(10) Good morning
+s.isalpha() False
+s.isalnum() False
+s.isdecimal() False
+s.isdigit() False
+s.islower() False
+s.isnumeric() False
+s.isspace() False
+s.istitle() False
+s.join('J') J
+s.ljust(5,'T') Good morning
+
+Q>String Palceholder
+txt="hello, and welcome to my world"
+x=txt.capitalize()
+print(x)
+
+#Placeholder,Format function
+txt1="My name is {fname},I'm {age}".format(fname='Jhon',age=36)
+txt2="My name is {0},I'm {1}".format("Jhon",36)
+txt3="My name is {},I'm {}".format("Jhon", 36)
+print(txt1)
+print(txt2)
+print(txt3)
+
+Output:
+Hello, and welcome to my world
+My name is Jhon,I'm 36
+My name is Jhon,I'm 36
+My name is Jhon,I'm 36
+
+Q>Temperature Convert
+c=float(input('Enter C:'))
+f=(c*1.8)+32
+print("F is :",f)
+
+f=float(input('Enter F:'))
+c=(f-32)/1.8
+print("C is :",c)
+
+Ouput:
+Enter C:36
+F is : 96.8
+
+Enter F:56
+C is : 13.333333333333332
+
+Q>Welcome Program
+name=input("Enter Name:")
+print("Welcome:"+name)
+
+Output
+Enter Name:Arjun
+Welcome:Arjun
+
+Q>s=list(input("Enter The String:"))
+l=list(reversed(s))
+if s==l:
+    print("Palindronme")
+else:
+    print("Not Palindrome")
+    
+Output:
+Enter The String:malayalam
+Palindronme
+
+Q>punc='''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+s=input("Enter The String:")
+for i in s:
+    if i in punc:
+        s=s.replace(i,"")
+print(s)
+
+Output:
+Enter The String:!ac
+ac
+
+Q>X = [[1,2,3],
+	[4 ,5,6],
+	[7 ,8,9]]
+
+Y = [[9,8,7],
+	[6,5,4],
+	[3,2,1]]
+
+
+result = [[0,0,0],
+		[0,0,0],
+		[0,0,0]]
+
+# iterate through rows
+for i in range(len(X)):
+# iterate through columns
+	for j in range(len(X[0])):
+		result[i][j] = X[i][j] + Y[i][j]
+
+for r in result:
+	print(r)
+
+Output:
+[10, 10, 10]
+[10, 10, 10]
+[10, 10, 10]
